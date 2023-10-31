@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 50px;
+  background-color: gray;
+}
+
+header > h2 {
+  text-align: center;
+  color: white;
+}
+
+.item {
+  background-color: rgb(25, 25, 150);
+  border: 2px solid rgb(4, 0, 44);
+  color: white;
+  text-align: center;
+}
